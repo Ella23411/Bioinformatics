@@ -1,0 +1,6 @@
+Given the following amino acids: Leu, Ser, Thr 
+Provide the following: 
+- a list of known foods that are low in one of the amino acids ( you need to provided 3 lists in this case)
+- a list of known foods that are low in all of the specified amino acids
+
+Display all the foods in a table format that is easy to read through 
