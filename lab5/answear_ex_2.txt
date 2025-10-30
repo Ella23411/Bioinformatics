@@ -1,0 +1,2 @@
+Each point shows how long it took to assemble one virus sequence based on its GC content.
+Sequences with GC content around 50% assembled faster, while those with higher or lower GC values took longer due to more repetitive patterns.

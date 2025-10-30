@@ -1,0 +1,5 @@
+The main problem with this algorithm is that it only works correctly if the samples cover every base position of the original DNA sequence sufficiently, ideally multiple times. 
+Because the samples are taken randomly, some regions may be covered many times while others are missed entirely. 
+Positions that are never sampled lead to gaps in reconstruction and under-sampled regions can result in incorrect results due to random majority. 
+This uneven or incomplete coverage makes it impossible to accurately reconstruct the entire original sequence.
+
