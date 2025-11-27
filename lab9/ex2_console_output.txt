@@ -1,0 +1,313 @@
+Restriction Enzyme Digest Simulator
+DNA sequences will be loaded from 'sequences.fasta' (multi-FASTA).
+We will generate 10 individual gels + 1 merged difference gel.
+
+Successfully loaded 10 sequence(s) from 'sequences.fasta'.
+Available enzymes:
+  1. EcoRI      (Recognition: GAATTC, cut at index 2 of the pattern)
+  2. BamHI      (Recognition: GGATCC, cut at index 2 of the pattern)
+  3. HindIII    (Recognition: AAGCTT, cut at index 2 of the pattern)
+  4. TaqI       (Recognition: TCGA, cut at index 2 of the pattern)
+  5. HaeIII     (Recognition: GGCC, cut at index 3 of the pattern)
+Enter the enzyme names separated by commas (or type 'all' to use all enzymes):
+all
+
+######################################################################
+Sample 1: NC_007361.1 |Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) neuraminidase (NA) gene, complete cds
+######################################################################
+Sequence length: 1458 bp
+
+  --- EcoRI Digest ---
+  No cleavage sites detected.
+  Fragment size: 1458 bp (undigested)
+
+  --- BamHI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1146
+  Fragment lengths (bp): 1145, 313
+
+  --- HindIII Digest ---
+  No cleavage sites detected.
+  Fragment size: 1458 bp (undigested)
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 821
+  Fragment lengths (bp): 820, 638
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 5
+  Cut positions (1-based): 611, 772, 924, 1311, 1392
+  Fragment lengths (bp): 610, 161, 152, 387, 81, 67
+
+######################################################################
+Sample 2: NC_007366.1 |Influenza A virus (A/New York/392/2004(H3N2)) segment 4, complete sequence
+######################################################################
+Sequence length: 1762 bp
+
+  --- EcoRI Digest ---
+  Number of cleavage sites: 2
+  Cut positions (1-based): 1270, 1292
+  Fragment lengths (bp): 1269, 22, 471
+
+  --- BamHI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1619
+  Fragment lengths (bp): 1618, 144
+
+  --- HindIII Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 447
+  Fragment lengths (bp): 446, 1316
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1304
+  Fragment lengths (bp): 1303, 459
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 3
+  Cut positions (1-based): 988, 1366, 1690
+  Fragment lengths (bp): 987, 378, 324, 73
+
+######################################################################
+Sample 3: NC_007367.1 |Influenza A virus (A/New York/392/2004(H3N2)) segment 7, complete sequence
+######################################################################
+Sequence length: 1027 bp
+
+  --- EcoRI Digest ---
+  No cleavage sites detected.
+  Fragment size: 1027 bp (undigested)
+
+  --- BamHI Digest ---
+  No cleavage sites detected.
+  Fragment size: 1027 bp (undigested)
+
+  --- HindIII Digest ---
+  No cleavage sites detected.
+  Fragment size: 1027 bp (undigested)
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 3
+  Cut positions (1-based): 46, 870, 942
+  Fragment lengths (bp): 45, 824, 72, 86
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 9
+  Cut positions (1-based): 79, 360, 412, 460, 570, 630, 651, 887, 899
+  Fragment lengths (bp): 78, 281, 52, 48, 110, 60, 21, 236, 12, 129
+
+######################################################################
+Sample 4: NC_007368.1 |Influenza A virus (A/New York/392/2004(H3N2)) segment 6, complete sequence
+######################################################################
+Sequence length: 1467 bp
+
+  --- EcoRI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 141
+  Fragment lengths (bp): 140, 1327
+
+  --- BamHI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1034
+  Fragment lengths (bp): 1033, 434
+
+  --- HindIII Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1429
+  Fragment lengths (bp): 1428, 39
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 3
+  Cut positions (1-based): 333, 844, 866
+  Fragment lengths (bp): 332, 511, 22, 602
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 3
+  Cut positions (1-based): 920, 1077, 1394
+  Fragment lengths (bp): 919, 157, 317, 74
+
+######################################################################
+Sample 5: NC_007369.1 |Influenza A virus (A/New York/392/2004(H3N2)) segment 5, complete sequence
+######################################################################
+Sequence length: 1566 bp
+
+  --- EcoRI Digest ---
+  No cleavage sites detected.
+  Fragment size: 1566 bp (undigested)
+
+  --- BamHI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 523
+  Fragment lengths (bp): 522, 1044
+
+  --- HindIII Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1078
+  Fragment lengths (bp): 1077, 489
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 7
+  Cut positions (1-based): 511, 554, 655, 804, 918, 1172, 1437
+  Fragment lengths (bp): 510, 43, 101, 149, 114, 254, 265, 130
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 4
+  Cut positions (1-based): 328, 1205, 1247, 1257
+  Fragment lengths (bp): 327, 877, 42, 10, 310
+
+######################################################################
+Sample 6: NC_007371.1 |Influenza A virus (A/New York/392/2004(H3N2)) segment 3, complete sequence
+######################################################################
+Sequence length: 2233 bp
+
+  --- EcoRI Digest ---
+  No cleavage sites detected.
+  Fragment size: 2233 bp (undigested)
+
+  --- BamHI Digest ---
+  No cleavage sites detected.
+  Fragment size: 2233 bp (undigested)
+
+  --- HindIII Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 758
+  Fragment lengths (bp): 757, 1476
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 10
+  Cut positions (1-based): 21, 66, 261, 378, 513, 732, 1299, 1800, 1826, 2052
+  Fragment lengths (bp): 20, 45, 195, 117, 135, 219, 567, 501, 26, 226, 182
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 8
+  Cut positions (1-based): 284, 428, 572, 582, 1265, 1689, 1702, 1882
+  Fragment lengths (bp): 283, 144, 144, 10, 683, 424, 13, 180, 352
+
+######################################################################
+Sample 7: NC_007372.1 |Influenza A virus (A/New York/392/2004(H3N2)) segment 2, complete sequence
+######################################################################
+Sequence length: 2341 bp
+
+  --- EcoRI Digest ---
+  Number of cleavage sites: 2
+  Cut positions (1-based): 1496, 2067
+  Fragment lengths (bp): 1495, 571, 275
+
+  --- BamHI Digest ---
+  No cleavage sites detected.
+  Fragment size: 2341 bp (undigested)
+
+  --- HindIII Digest ---
+  Number of cleavage sites: 2
+  Cut positions (1-based): 818, 1504
+  Fragment lengths (bp): 817, 686, 838
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 7
+  Cut positions (1-based): 479, 970, 1095, 1516, 1746, 2112, 2214
+  Fragment lengths (bp): 478, 491, 125, 421, 230, 366, 102, 128
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 7
+  Cut positions (1-based): 302, 399, 863, 1204, 1645, 2174, 2189
+  Fragment lengths (bp): 301, 97, 464, 341, 441, 529, 15, 153
+
+######################################################################
+Sample 8: NC_007373.1 |Influenza A virus (A/New York/392/2004(H3N2)) segment 1, complete sequence
+######################################################################
+Sequence length: 2341 bp
+
+  --- EcoRI Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 2286
+  Fragment lengths (bp): 2285, 56
+
+  --- BamHI Digest ---
+  No cleavage sites detected.
+  Fragment size: 2341 bp (undigested)
+
+  --- HindIII Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1877
+  Fragment lengths (bp): 1876, 465
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 5
+  Cut positions (1-based): 289, 393, 1389, 1540, 1628
+  Fragment lengths (bp): 288, 104, 996, 151, 88, 714
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 6
+  Cut positions (1-based): 113, 420, 815, 1229, 1787, 2297
+  Fragment lengths (bp): 112, 307, 395, 414, 558, 510, 45
+
+######################################################################
+Sample 9: NC_007374.1 |Influenza A virus (A/Korea/426/1968(H2N2)) segment 4, complete sequence
+######################################################################
+Sequence length: 1773 bp
+
+  --- EcoRI Digest ---
+  Number of cleavage sites: 2
+  Cut positions (1-based): 765, 1269
+  Fragment lengths (bp): 764, 504, 505
+
+  --- BamHI Digest ---
+  No cleavage sites detected.
+  Fragment size: 1773 bp (undigested)
+
+  --- HindIII Digest ---
+  No cleavage sites detected.
+  Fragment size: 1773 bp (undigested)
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 2
+  Cut positions (1-based): 136, 855
+  Fragment lengths (bp): 135, 719, 919
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 3
+  Cut positions (1-based): 48, 486, 734
+  Fragment lengths (bp): 47, 438, 248, 1040
+
+######################################################################
+Sample 10: NC_007375.1 |Influenza A virus (A/Korea/426/1968(H2N2)) segment 2, complete sequence
+######################################################################
+Sequence length: 2340 bp
+
+  --- EcoRI Digest ---
+  Number of cleavage sites: 2
+  Cut positions (1-based): 1495, 2066
+  Fragment lengths (bp): 1494, 571, 275
+
+  --- BamHI Digest ---
+  No cleavage sites detected.
+  Fragment size: 2340 bp (undigested)
+
+  --- HindIII Digest ---
+  Number of cleavage sites: 1
+  Cut positions (1-based): 1503
+  Fragment lengths (bp): 1502, 838
+
+  --- TaqI Digest ---
+  Number of cleavage sites: 6
+  Cut positions (1-based): 479, 789, 970, 1095, 1745, 2213
+  Fragment lengths (bp): 478, 310, 181, 125, 650, 468, 128
+
+  --- HaeIII Digest ---
+  Number of cleavage sites: 3
+  Cut positions (1-based): 1204, 1644, 2173
+  Fragment lengths (bp): 1203, 440, 529, 168
+Gel simulation saved to 'gel_1_NC_007361.1_Influenza_A_virus_A_Goose_Guangdong_1_96_H5N1_neuraminidase_NA_gene_complete_cds.png'.
+Gel simulation saved to 'gel_2_NC_007366.1_Influenza_A_virus_A_New_York_392_2004_H3N2_segment_4_complete_sequence.png'.
+Gel simulation saved to 'gel_3_NC_007367.1_Influenza_A_virus_A_New_York_392_2004_H3N2_segment_7_complete_sequence.png'.
+Gel simulation saved to 'gel_4_NC_007368.1_Influenza_A_virus_A_New_York_392_2004_H3N2_segment_6_complete_sequence.png'.
+Gel simulation saved to 'gel_5_NC_007369.1_Influenza_A_virus_A_New_York_392_2004_H3N2_segment_5_complete_sequence.png'.
+Gel simulation saved to 'gel_6_NC_007371.1_Influenza_A_virus_A_New_York_392_2004_H3N2_segment_3_complete_sequence.png'.
+Gel simulation saved to 'gel_7_NC_007372.1_Influenza_A_virus_A_New_York_392_2004_H3N2_segment_2_complete_sequence.png'.
+Gel simulation saved to 'gel_8_NC_007373.1_Influenza_A_virus_A_New_York_392_2004_H3N2_segment_1_complete_sequence.png'.
+Gel simulation saved to 'gel_9_NC_007374.1_Influenza_A_virus_A_Korea_426_1968_H2N2_segment_4_complete_sequence.png'.
+Gel simulation saved to 'gel_10_NC_007375.1_Influenza_A_virus_A_Korea_426_1968_H2N2_segment_2_complete_sequence.png'.
+Gel simulation saved to 'gel_differences.png'.
+
+All gels generated: one per sequence + 'gel_differences.png' for polymorphic bands.
