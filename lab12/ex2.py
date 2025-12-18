@@ -130,14 +130,11 @@ def plot_all_genomes_signals(
         ax.grid(True)
         ax.set_ylabel("")
 
-        # Make ticks smaller for clarity
         ax.tick_params(axis="both", labelsize=9)
 
-    # Hide unused axes if any
     for j in range(len(results), len(axes)):
         axes[j].axis("off")
 
-    # Shared Y label (left)
     fig.text(
         0.02,
         0.5,
@@ -147,7 +144,6 @@ def plot_all_genomes_signals(
         fontsize=13,
     )
 
-    # More breathing room between plots
     plt.subplots_adjust(
         wspace=0.25,
         hspace=0.9,   
