@@ -1,0 +1,345 @@
+[
+  {
+    "step": 0,
+    "from_state": "G",
+    "to_state": "A",
+    "prob": 0.38461538461538464,
+    "rng": 0.025010755222666936
+  },
+  {
+    "step": 1,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.27502931836911926
+  },
+  {
+    "step": 2,
+    "from_state": "C",
+    "to_state": "C",
+    "prob": 0.1,
+    "rng": 0.22321073814882275
+  },
+  {
+    "step": 3,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.7364712141640124
+  },
+  {
+    "step": 4,
+    "from_state": "G",
+    "to_state": "C",
+    "prob": 0.3076923076923077,
+    "rng": 0.6766994874229113
+  },
+  {
+    "step": 5,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.8921795677048454
+  },
+  {
+    "step": 6,
+    "from_state": "G",
+    "to_state": "A",
+    "prob": 0.38461538461538464,
+    "rng": 0.08693883262941615
+  },
+  {
+    "step": 7,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.4219218196852704
+  },
+  {
+    "step": 8,
+    "from_state": "C",
+    "to_state": "A",
+    "prob": 0.2,
+    "rng": 0.029797219438070344
+  },
+  {
+    "step": 9,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.21863797480360336
+  },
+  {
+    "step": 10,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.5053552881033624
+  },
+  {
+    "step": 11,
+    "from_state": "G",
+    "to_state": "A",
+    "prob": 0.38461538461538464,
+    "rng": 0.026535969683863625
+  },
+  {
+    "step": 12,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.1988376506866485
+  },
+  {
+    "step": 13,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.6498844377795232
+  },
+  {
+    "step": 14,
+    "from_state": "G",
+    "to_state": "C",
+    "prob": 0.3076923076923077,
+    "rng": 0.5449414806032167
+  },
+  {
+    "step": 15,
+    "from_state": "C",
+    "to_state": "C",
+    "prob": 0.1,
+    "rng": 0.2204406220406967
+  },
+  {
+    "step": 16,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.5892656838759087
+  },
+  {
+    "step": 17,
+    "from_state": "G",
+    "to_state": "G",
+    "prob": 0.15384615384615385,
+    "rng": 0.8094304566778266
+  },
+  {
+    "step": 18,
+    "from_state": "G",
+    "to_state": "A",
+    "prob": 0.38461538461538464,
+    "rng": 0.006498759678061017
+  },
+  {
+    "step": 19,
+    "from_state": "A",
+    "to_state": "T",
+    "prob": 0.26666666666666666,
+    "rng": 0.8058192518328079
+  },
+  {
+    "step": 20,
+    "from_state": "T",
+    "to_state": "G",
+    "prob": 0.18181818181818182,
+    "rng": 0.6981393949882269
+  },
+  {
+    "step": 21,
+    "from_state": "G",
+    "to_state": "A",
+    "prob": 0.38461538461538464,
+    "rng": 0.3402505165179919
+  },
+  {
+    "step": 22,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.15547949981178155
+  },
+  {
+    "step": 23,
+    "from_state": "C",
+    "to_state": "T",
+    "prob": 0.1,
+    "rng": 0.9572130722067812
+  },
+  {
+    "step": 24,
+    "from_state": "T",
+    "to_state": "A",
+    "prob": 0.5454545454545454,
+    "rng": 0.33659454511262676
+  },
+  {
+    "step": 25,
+    "from_state": "A",
+    "to_state": "A",
+    "prob": 0.13333333333333333,
+    "rng": 0.09274584338014791
+  },
+  {
+    "step": 26,
+    "from_state": "A",
+    "to_state": "A",
+    "prob": 0.13333333333333333,
+    "rng": 0.09671637683346401
+  },
+  {
+    "step": 27,
+    "from_state": "A",
+    "to_state": "T",
+    "prob": 0.26666666666666666,
+    "rng": 0.8474943663474598
+  },
+  {
+    "step": 28,
+    "from_state": "T",
+    "to_state": "G",
+    "prob": 0.18181818181818182,
+    "rng": 0.6037260313668911
+  },
+  {
+    "step": 29,
+    "from_state": "G",
+    "to_state": "G",
+    "prob": 0.15384615384615385,
+    "rng": 0.8071282732743802
+  },
+  {
+    "step": 30,
+    "from_state": "G",
+    "to_state": "G",
+    "prob": 0.15384615384615385,
+    "rng": 0.7297317866938179
+  },
+  {
+    "step": 31,
+    "from_state": "G",
+    "to_state": "C",
+    "prob": 0.3076923076923077,
+    "rng": 0.5362280914547007
+  },
+  {
+    "step": 32,
+    "from_state": "C",
+    "to_state": "T",
+    "prob": 0.1,
+    "rng": 0.9731157639793706
+  },
+  {
+    "step": 33,
+    "from_state": "T",
+    "to_state": "A",
+    "prob": 0.5454545454545454,
+    "rng": 0.3785343772083535
+  },
+  {
+    "step": 34,
+    "from_state": "A",
+    "to_state": "G",
+    "prob": 0.2,
+    "rng": 0.552040631273227
+  },
+  {
+    "step": 35,
+    "from_state": "G",
+    "to_state": "G",
+    "prob": 0.15384615384615385,
+    "rng": 0.8294046642529949
+  },
+  {
+    "step": 36,
+    "from_state": "G",
+    "to_state": "C",
+    "prob": 0.3076923076923077,
+    "rng": 0.6185197523642461
+  },
+  {
+    "step": 37,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.8617069003107772
+  },
+  {
+    "step": 38,
+    "from_state": "G",
+    "to_state": "C",
+    "prob": 0.3076923076923077,
+    "rng": 0.577352145256762
+  },
+  {
+    "step": 39,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.7045718362149235
+  },
+  {
+    "step": 40,
+    "from_state": "G",
+    "to_state": "A",
+    "prob": 0.38461538461538464,
+    "rng": 0.045824383655662215
+  },
+  {
+    "step": 41,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.22789827565154686
+  },
+  {
+    "step": 42,
+    "from_state": "C",
+    "to_state": "C",
+    "prob": 0.1,
+    "rng": 0.28938796360210717
+  },
+  {
+    "step": 43,
+    "from_state": "C",
+    "to_state": "A",
+    "prob": 0.2,
+    "rng": 0.0797919769236275
+  },
+  {
+    "step": 44,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.23279088636103018
+  },
+  {
+    "step": 45,
+    "from_state": "C",
+    "to_state": "A",
+    "prob": 0.2,
+    "rng": 0.10100142940972912
+  },
+  {
+    "step": 46,
+    "from_state": "A",
+    "to_state": "C",
+    "prob": 0.4,
+    "rng": 0.2779736031100921
+  },
+  {
+    "step": 47,
+    "from_state": "C",
+    "to_state": "G",
+    "prob": 0.6,
+    "rng": 0.6356844442644002
+  },
+  {
+    "step": 48,
+    "from_state": "G",
+    "to_state": "A",
+    "prob": 0.38461538461538464,
+    "rng": 0.36483217897008424
+  }
+]

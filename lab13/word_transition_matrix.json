@@ -1,0 +1,170 @@
+{
+  "text_length_chars": 204,
+  "num_words": 37,
+  "unique_words": 31,
+  "word_to_symbol": {
+    "a": "w0",
+    "across": "w1",
+    "and": "w2",
+    "barked": "w3",
+    "change": "w4",
+    "dog": "w5",
+    "even": "w6",
+    "fold": "w7",
+    "going": "w8",
+    "i": "w9",
+    "keep": "w10",
+    "laughed": "w11",
+    "light": "w12",
+    "myself": "w13",
+    "note": "w14",
+    "plans": "w15",
+    "quiet": "w16",
+    "river": "w17",
+    "someone": "w18",
+    "street": "w19",
+    "the": "w20",
+    "then": "w21",
+    "to": "w22",
+    "twice": "w23",
+    "walked": "w24",
+    "watched": "w25",
+    "water": "w26",
+    "went": "w27",
+    "when": "w28",
+    "wrote": "w29",
+    "yesterday": "w30"
+  },
+  "symbol_to_word": {
+    "w0": "a",
+    "w1": "across",
+    "w2": "and",
+    "w3": "barked",
+    "w4": "change",
+    "w5": "dog",
+    "w6": "even",
+    "w7": "fold",
+    "w8": "going",
+    "w9": "i",
+    "w10": "keep",
+    "w11": "laughed",
+    "w12": "light",
+    "w13": "myself",
+    "w14": "note",
+    "w15": "plans",
+    "w16": "quiet",
+    "w17": "river",
+    "w18": "someone",
+    "w19": "street",
+    "w20": "the",
+    "w21": "then",
+    "w22": "to",
+    "w23": "twice",
+    "w24": "walked",
+    "w25": "watched",
+    "w26": "water",
+    "w27": "went",
+    "w28": "when",
+    "w29": "wrote",
+    "w30": "yesterday"
+  },
+  "matrix_convention": "P(next_word | current_word) using symbols",
+  "order1": {
+    "w30": {
+      "w9": 1.0
+    },
+    "w9": {
+      "w24": 0.5,
+      "w29": 0.5
+    },
+    "w24": {
+      "w22": 1.0
+    },
+    "w22": {
+      "w20": 0.5,
+      "w13": 0.5
+    },
+    "w20": {
+      "w17": 0.25,
+      "w12": 0.25,
+      "w26": 0.25,
+      "w19": 0.25
+    },
+    "w17": {
+      "w2": 1.0
+    },
+    "w2": {
+      "w25": 1.0
+    },
+    "w25": {
+      "w20": 1.0
+    },
+    "w12": {
+      "w7": 1.0
+    },
+    "w7": {
+      "w1": 1.0
+    },
+    "w1": {
+      "w20": 1.0
+    },
+    "w26": {
+      "w0": 1.0
+    },
+    "w0": {
+      "w5": 0.5,
+      "w14": 0.5
+    },
+    "w5": {
+      "w3": 1.0
+    },
+    "w3": {
+      "w23": 1.0
+    },
+    "w23": {
+      "w18": 1.0
+    },
+    "w18": {
+      "w11": 1.0
+    },
+    "w11": {
+      "w21": 1.0
+    },
+    "w21": {
+      "w20": 1.0
+    },
+    "w19": {
+      "w27": 1.0
+    },
+    "w27": {
+      "w16": 1.0
+    },
+    "w16": {
+      "w9": 1.0
+    },
+    "w29": {
+      "w0": 1.0
+    },
+    "w14": {
+      "w22": 1.0
+    },
+    "w13": {
+      "w10": 1.0
+    },
+    "w10": {
+      "w8": 1.0
+    },
+    "w8": {
+      "w6": 1.0
+    },
+    "w6": {
+      "w28": 1.0
+    },
+    "w28": {
+      "w15": 1.0
+    },
+    "w15": {
+      "w4": 1.0
+    }
+  }
+}
